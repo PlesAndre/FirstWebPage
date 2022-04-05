@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+
+.my-logo {
+    width: 60px;
+}
+
+.navbar-nav li {
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.id-photo {
+    height: 20em;
+}
+
+.about-me {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.about-description, p {
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+}
+
+.container-skills {
+    margin: 80px;
+}
+
+.img-fluid{
+    width: 6rem;
+    height: auto;
+}
+
+.projects {
+    margin-top: 200px;
+}
+
+.my-works {
+    margin-top: 5rem;
+}
+
+.container-card {
+    margin-top: 40px;
+}
+
+.error-img{
+    width: 16rem;
+}
+
+.external {
+    padding-bottom: 40px;
+}
+
+.box-footer {
+    padding: 30px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+
+
+}
+
+/* Mobile horizontal view */
+@media only screen and (max-width: 767px) {
+    
+}
+  
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+   
+}
+  
+/* Desktop Styles */
+@media only screen and (min-width: 1200px) {
+
+}
